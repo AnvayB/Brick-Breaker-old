@@ -60,19 +60,6 @@ public class Main extends Application {
 		tutorial = new Button("Tutorial");
 		tutorial.relocate(355, 500);
 
-		// button.setOnAction(e -> AlertBox.display("Title of window", "here is the
-		// alert for the popup"));
-
-//		Text text = new Text();
-//		text.setText("Welcome to Brick-Breaker!"
-//					+ "\nHere’s how to play the game:"
-//					+ "\nYour goal is to knock out all the bricks on the screen by moving the paddle. "
-//					+ "\nControl the paddle using the arrow keys on your keyboard."
-//					+ "\n"
-//					+ "\nDon't let the ball hit the bottom of the screen, otherwise you lose!"
-//					+ "\nHave fun");
-//		button.setOnAction(e -> {
-//			 AlertBox.display("Tutorial", text);});
 
 		tutorial.setOnAction(e -> {
 			Tutorial.display("Tutorial", "Welcome to Brick-Breaker!" + "\n" + "\nHere’s how to play the game:" + "\n"
