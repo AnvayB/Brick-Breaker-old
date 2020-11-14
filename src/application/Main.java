@@ -13,16 +13,33 @@ import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.scene.text.*;
 
+/**
+ * A Main class extending from Application that runs the JavaFX project
+ * @param window the window of the stage
+ * @param play the play button
+ * @param tutorial the tutorial button
+ * @param rankings the leader board button
+ * @param closeButton the exit button
+ * @param title the title
+ *
+ */
 public class Main extends Application {
 
 	Stage window;
 	Button play, tutorial, rankings, closeButton;
 	Label title;
 
+	/**
+	 * Main method to run the application
+	 */
 	public static void main(String[] args) {
 		launch(args);
 	}
-
+	
+	/**
+	 * Starts the main menu
+	 * @param mainStage the stage of the main menu
+	 */
 	@Override
 	public void start(Stage mainStage) {
 		window = mainStage;

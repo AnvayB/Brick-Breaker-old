@@ -16,6 +16,11 @@ import java.util.*;
 
 public class Tutorial {
 
+	/**
+	 * Display the tutorial page
+	 * @param title the title display
+	 * @param message the message display
+	 */
 	public static void display(String title, String message) {
 		Stage window = new Stage();
 
